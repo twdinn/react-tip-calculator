@@ -1,0 +1,21 @@
+/* Overall wrapper for the tip calculator */
+.wrapper {
+  /* Set the height and width of the wrapper */
+  height: 525px;
+  width: 360px;
+
+  /* Set the text color to white */
+  color: white;
+
+  /* Set the background gradient */
+  background: linear-gradient(#c9bbcf, #b7d3df);
+
+  /* Set the border radius */
+  border-radius: 1rem;
+
+  /* Add some padding */
+  padding: 1.2rem;
+
+  /* Center the wrapper on the page and add some margin */
+  margin: 100px auto;
+}
