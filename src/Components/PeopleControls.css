@@ -1,0 +1,45 @@
+/* bottom container for the split controls and total per person */
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* container for the split controls */
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+/* container for the +/- buttons in split controls */
+.buttonContainer {
+  background: #d6efed;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
+/* styling for the +/- buttons */
+.splitButton {
+  background: none;
+  border: none;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+/* styling for the text inside the +/- buttons */
+.buttonText {
+  color: #353959 !important;
+}
+
+/* styling for the number of people in split controls */
+.splitAmount {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}

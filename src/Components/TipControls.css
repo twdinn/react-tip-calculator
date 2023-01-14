@@ -1,0 +1,12 @@
+#tipInput {
+  /* styling for the input field where the user inputs the tip percentage */
+  font-size: 1.2rem;
+  /* removes default background color */
+  background: none;
+  /* removes default border */
+  border: none;
+  /* removes default outline */
+  outline: none;
+  /* removes default padding */
+  padding: none;
+}

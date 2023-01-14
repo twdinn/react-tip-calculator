@@ -1,0 +1,24 @@
+.container {
+  /* Margin for top of container */
+  margin-top: 1.4rem;
+}
+
+.title {
+  /* Make font weight bold */
+  font-weight: bold;
+  /* Margin for bottom of title */
+  margin-bottom: 0.7rem;
+}
+
+.inputContainer {
+  /* Background color for input container */
+  background: #b2c8df;
+  /* Border radius for input container */
+  border-radius: 1.4rem;
+  /* Padding for input container */
+  padding: 0 0.8rem;
+  /* Display flex */
+  display: flex;
+  /* Align items to center */
+  align-items: center;
+}

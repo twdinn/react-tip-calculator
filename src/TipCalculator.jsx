@@ -55,7 +55,7 @@ const TipCalculator = () => {
   // useEffect to call the calculateTotal function when the bill or tipPercent state changes
   useEffect(() => {
     calculateTotal();
-  }, [bill, tipPercent]);
+  });
 
   return (
     <div className="wrapper">
