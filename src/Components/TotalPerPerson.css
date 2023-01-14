@@ -1,0 +1,12 @@
+/* styles the total per person
+It puts it into a column and displays it at the end of the container*/
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Font size of 2rem*/
+.total {
+  font-size: 2rem;
+}
