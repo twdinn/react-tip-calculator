@@ -1,8 +1,8 @@
 /* Overall wrapper for the tip calculator */
 .wrapper {
   /* Set the height and width of the wrapper */
-  height: 525px;
-  width: 360px;
+  height: 32.8rem;
+  width: 22.5rem;
 
   /* Set the text color to white */
   color: white;
@@ -17,5 +17,26 @@
   padding: 1.2rem;
 
   /* Center the wrapper on the page and add some margin */
-  margin: 100px auto;
+  margin: 6.25rem auto;
+}
+
+@media (max-width: 420px) {
+  .wrapper {
+    height: 30rem;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .wrapper {
+    height: 25rem;
+    width: 15rem;
+  }
+}
+
+@media (max-width: 290px) {
+  .wrapper {
+    height: 23rem;
+    width: 12rem;
+  }
 }
